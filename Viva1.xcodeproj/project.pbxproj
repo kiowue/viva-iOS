@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0DC9D61FC2F9FA001C4277 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9D51FC2F9FA001C4277 /* Result.swift */; };
+		CB0DC9DE1FC34DEF001C4277 /* NetworkResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */; };
+		CB0DC9E01FC350A9001C4277 /* JSONResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */; };
+		CB0DC9E21FC351E0001C4277 /* ApiResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E11FC351E0001C4277 /* ApiResources.swift */; };
+		CB0DC9E41FC35224001C4277 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E31FC35224001C4277 /* Serialization.swift */; };
+		CB0DC9E61FC3FEE3001C4277 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */; };
+		CB0DC9E91FC4770C001C4277 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E81FC4770C001C4277 /* User.swift */; };
+		CB0DC9EB1FC47D28001C4277 /* ResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */; };
+		CB0DCA441FCA83B1001C4277 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0DCA431FCA83B1001C4277 /* Home.storyboard */; };
+		CB0DCA471FCA8402001C4277 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DCA461FCA8402001C4277 /* HomeViewController.swift */; };
+		CB2BB68D1FCAB0B70073D617 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2BB68C1FCAB0B70073D617 /* Collection.storyboard */; };
+		CB2BB68F1FCAB0CC0073D617 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB68E1FCAB0CC0073D617 /* CollectionViewController.swift */; };
+		CB2BB6941FCACAE60073D617 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */; };
+		CB2BB6951FCACAE60073D617 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */; };
+		CB2BB6961FCACAE60073D617 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6931FCACAE60073D617 /* Flickr.swift */; };
+		CB2BB6981FCB95780073D617 /* CollectionFlickrCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6971FCB95780073D617 /* CollectionFlickrCell.swift */; };
+		CB4774851FBD593C00ED071A /* VivaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4774841FBD593C00ED071A /* VivaApi.swift */; };
 		CB7C37FD1FB55215001EE28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C37FC1FB55215001EE28C /* AppDelegate.swift */; };
 		CB7C37FF1FB55215001EE28C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C37FE1FB55215001EE28C /* FirstViewController.swift */; };
-		CB7C38011FB55215001EE28C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C38001FB55215001EE28C /* SecondViewController.swift */; };
 		CB7C38041FB55215001EE28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38021FB55215001EE28C /* Main.storyboard */; };
 		CB7C38061FB55215001EE28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38051FB55215001EE28C /* Assets.xcassets */; };
 		CB7C38091FB55215001EE28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38071FB55215001EE28C /* LaunchScreen.storyboard */; };
 		CB7C38141FB55216001EE28C /* Viva1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C38131FB55216001EE28C /* Viva1Tests.swift */; };
 		CB7C381F1FB55216001EE28C /* Viva1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C381E1FB55216001EE28C /* Viva1UITests.swift */; };
+		CBF0433F200E84DD00DB48AA /* InitialTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0433D200E839900DB48AA /* InitialTabBarController.swift */; };
+		CBF04343200EEABA00DB48AA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF04342200EEABA00DB48AA /* SettingsViewController.swift */; };
+		CBF0434D2010801000DB48AA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF0434C2010800F00DB48AA /* Constants.swift */; };
+		CBF1C8B62010AC06000F09A6 /* HomeViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1C8B52010AC06000F09A6 /* HomeViewInterface.swift */; };
+		CBF1C8B82010B099000F09A6 /* SettingsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1C8B72010B099000F09A6 /* SettingsInterface.swift */; };
+		CBF1C8FA20166A22000F09A6 /* StoryboardControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1C8F920166A21000F09A6 /* StoryboardControllers.swift */; };
+		CBF1C8FC20166A59000F09A6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C8FB20166A59000F09A6 /* Settings.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +58,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0DC9D51FC2F9FA001C4277 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResourceType.swift; sourceTree = "<group>"; };
+		CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResourceType.swift; sourceTree = "<group>"; };
+		CB0DC9E11FC351E0001C4277 /* ApiResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResources.swift; sourceTree = "<group>"; };
+		CB0DC9E31FC35224001C4277 /* Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
+		CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
+		CB0DC9E81FC4770C001C4277 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceType.swift; sourceTree = "<group>"; };
+		CB0DCA431FCA83B1001C4277 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CB0DCA461FCA8402001C4277 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB2BB68C1FCAB0B70073D617 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		CB2BB68E1FCAB0CC0073D617 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
+		CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		CB2BB6931FCACAE60073D617 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		CB2BB6971FCB95780073D617 /* CollectionFlickrCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFlickrCell.swift; sourceTree = "<group>"; };
+		CB4774841FBD593C00ED071A /* VivaApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VivaApi.swift; sourceTree = "<group>"; };
 		CB7C37F91FB55215001EE28C /* Viva1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viva1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C37FC1FB55215001EE28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB7C37FE1FB55215001EE28C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CB7C38001FB55215001EE28C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CB7C38031FB55215001EE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB7C38051FB55215001EE28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7C38081FB55215001EE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +88,16 @@
 		CB7C381A1FB55216001EE28C /* Viva1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Viva1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C381E1FB55216001EE28C /* Viva1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viva1UITests.swift; sourceTree = "<group>"; };
 		CB7C38201FB55216001EE28C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBF0433D200E839900DB48AA /* InitialTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialTabBarController.swift; sourceTree = "<group>"; };
+		CBF04342200EEABA00DB48AA /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CBF0434820106D0600DB48AA /* MainScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = MainScript.sh; sourceTree = "<group>"; };
+		CBF0434B20107EDB00DB48AA /* CommonLib.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = CommonLib.sh; sourceTree = "<group>"; };
+		CBF0434C2010800F00DB48AA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CBF1C8B52010AC06000F09A6 /* HomeViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInterface.swift; sourceTree = "<group>"; };
+		CBF1C8B72010B099000F09A6 /* SettingsInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsInterface.swift; sourceTree = "<group>"; };
+		CBF1C8B92010C004000F09A6 /* StoryboardControllers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = StoryboardControllers.sh; sourceTree = "<group>"; };
+		CBF1C8F920166A21000F09A6 /* StoryboardControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardControllers.swift; sourceTree = "<group>"; };
+		CBF1C8FB20166A59000F09A6 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +125,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB0DC9D71FC33649001C4277 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */,
+				CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */,
+				CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CB0DC9DC1FC33700001C4277 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		CB0DC9E71FC476FE001C4277 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC9E81FC4770C001C4277 /* User.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		CB0DCA451FCA83B6001C4277 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DCA431FCA83B1001C4277 /* Home.storyboard */,
+				CB0DCA461FCA8402001C4277 /* HomeViewController.swift */,
+				CBF1C8B52010AC06000F09A6 /* HomeViewInterface.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB2BB68B1FCAB0790073D617 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB68C1FCAB0B70073D617 /* Collection.storyboard */,
+				CB2BB68E1FCAB0CC0073D617 /* CollectionViewController.swift */,
+				CB2BB6971FCB95780073D617 /* CollectionFlickrCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		CB2BB6901FCACAE60073D617 /* FlickrFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */,
+				CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */,
+				CB2BB6931FCACAE60073D617 /* Flickr.swift */,
+			);
+			name = FlickrFiles;
+			path = ../../../Downloads/FlickrFiles;
+			sourceTree = "<group>";
+		};
 		CB7C37F01FB55214001EE28C = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +205,22 @@
 		CB7C37FB1FB55215001EE28C /* Viva1 */ = {
 			isa = PBXGroup;
 			children = (
-				CB7C37FC1FB55215001EE28C /* AppDelegate.swift */,
+				CBF0434720106CDC00DB48AA /* Scripts */,
+				CBF04344200EEF2400DB48AA /* Constants */,
+				CBF0433B200E835400DB48AA /* Root */,
+				CBF04340200EEA8200DB48AA /* Features */,
+				CB2BB6901FCACAE60073D617 /* FlickrFiles */,
+				CB2BB68B1FCAB0790073D617 /* CollectionView */,
+				CB0DC9E71FC476FE001C4277 /* Objects */,
+				CB0DC9DC1FC33700001C4277 /* Tasks */,
+				CB0DC9D71FC33649001C4277 /* Protocols */,
+				CB4774841FBD593C00ED071A /* VivaApi.swift */,
 				CB7C37FE1FB55215001EE28C /* FirstViewController.swift */,
-				CB7C38001FB55215001EE28C /* SecondViewController.swift */,
-				CB7C38021FB55215001EE28C /* Main.storyboard */,
 				CB7C38051FB55215001EE28C /* Assets.xcassets */,
-				CB7C38071FB55215001EE28C /* LaunchScreen.storyboard */,
 				CB7C380A1FB55215001EE28C /* Info.plist */,
+				CB0DC9D51FC2F9FA001C4277 /* Result.swift */,
+				CB0DC9E11FC351E0001C4277 /* ApiResources.swift */,
+				CB0DC9E31FC35224001C4277 /* Serialization.swift */,
 			);
 			path = Viva1;
 			sourceTree = "<group>";
@@ -128,6 +243,55 @@
 			path = Viva1UITests;
 			sourceTree = "<group>";
 		};
+		CBF0433B200E835400DB48AA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				CB7C37FC1FB55215001EE28C /* AppDelegate.swift */,
+				CBF0433D200E839900DB48AA /* InitialTabBarController.swift */,
+				CB7C38021FB55215001EE28C /* Main.storyboard */,
+				CB7C38071FB55215001EE28C /* LaunchScreen.storyboard */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		CBF04340200EEA8200DB48AA /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CBF04341200EEAA100DB48AA /* Settings */,
+				CB0DCA451FCA83B6001C4277 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		CBF04341200EEAA100DB48AA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CBF04342200EEABA00DB48AA /* SettingsViewController.swift */,
+				CBF1C8B72010B099000F09A6 /* SettingsInterface.swift */,
+				CBF1C8FB20166A59000F09A6 /* Settings.storyboard */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CBF04344200EEF2400DB48AA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CBF1C8F920166A21000F09A6 /* StoryboardControllers.swift */,
+				CBF0434C2010800F00DB48AA /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CBF0434720106CDC00DB48AA /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				CBF0434820106D0600DB48AA /* MainScript.sh */,
+				CBF0434B20107EDB00DB48AA /* CommonLib.sh */,
+				CBF1C8B92010C004000F09A6 /* StoryboardControllers.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +302,7 @@
 				CB7C37F51FB55215001EE28C /* Sources */,
 				CB7C37F61FB55215001EE28C /* Frameworks */,
 				CB7C37F71FB55215001EE28C /* Resources */,
+				CBF1C8B020109BCF000F09A6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -238,6 +403,9 @@
 				CB7C38091FB55215001EE28C /* LaunchScreen.storyboard in Resources */,
 				CB7C38061FB55215001EE28C /* Assets.xcassets in Resources */,
 				CB7C38041FB55215001EE28C /* Main.storyboard in Resources */,
+				CBF1C8FC20166A59000F09A6 /* Settings.storyboard in Resources */,
+				CB0DCA441FCA83B1001C4277 /* Home.storyboard in Resources */,
+				CB2BB68D1FCAB0B70073D617 /* Collection.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +425,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CBF1C8B020109BCF000F09A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# All run scripts should be called from MainScript.sh\n$SRCROOT/Viva1/Scripts/MainScript.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CB7C37F51FB55215001EE28C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB7C38011FB55215001EE28C /* SecondViewController.swift in Sources */,
+				CB0DC9E91FC4770C001C4277 /* User.swift in Sources */,
+				CB2BB6951FCACAE60073D617 /* FlickrPhoto.swift in Sources */,
+				CB2BB6941FCACAE60073D617 /* FlickrSearchResults.swift in Sources */,
+				CB0DC9D61FC2F9FA001C4277 /* Result.swift in Sources */,
+				CB0DC9E01FC350A9001C4277 /* JSONResourceType.swift in Sources */,
+				CB4774851FBD593C00ED071A /* VivaApi.swift in Sources */,
+				CB2BB68F1FCAB0CC0073D617 /* CollectionViewController.swift in Sources */,
+				CB0DC9E41FC35224001C4277 /* Serialization.swift in Sources */,
+				CBF04343200EEABA00DB48AA /* SettingsViewController.swift in Sources */,
+				CB2BB6981FCB95780073D617 /* CollectionFlickrCell.swift in Sources */,
 				CB7C37FD1FB55215001EE28C /* AppDelegate.swift in Sources */,
+				CBF0433F200E84DD00DB48AA /* InitialTabBarController.swift in Sources */,
+				CB0DC9E21FC351E0001C4277 /* ApiResources.swift in Sources */,
+				CB0DC9E61FC3FEE3001C4277 /* NetworkTask.swift in Sources */,
+				CB0DC9DE1FC34DEF001C4277 /* NetworkResourceType.swift in Sources */,
+				CBF0434D2010801000DB48AA /* Constants.swift in Sources */,
+				CBF1C8B62010AC06000F09A6 /* HomeViewInterface.swift in Sources */,
 				CB7C37FF1FB55215001EE28C /* FirstViewController.swift in Sources */,
+				CB0DCA471FCA8402001C4277 /* HomeViewController.swift in Sources */,
+				CBF1C8FA20166A22000F09A6 /* StoryboardControllers.swift in Sources */,
+				CB2BB6961FCACAE60073D617 /* Flickr.swift in Sources */,
+				CBF1C8B82010B099000F09A6 /* SettingsInterface.swift in Sources */,
+				CB0DC9EB1FC47D28001C4277 /* ResourceType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +637,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UVB2ZZ736E;
 				INFOPLIST_FILE = Viva1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viva.Viva1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +653,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UVB2ZZ736E;
 				INFOPLIST_FILE = Viva1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.viva.Viva1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
