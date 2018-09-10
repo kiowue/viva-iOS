@@ -9,14 +9,35 @@
 import Foundation
 import UIKit
 
-struct HomeViewInterface {
+class HomeViewInterface: ViewInterfaceProtocol {
+    func presentDetailScreen<T>(from view: UIViewController, forPost post: T) {
+        //
+    }
+    
+    
+    private static var homeVC : UIViewController?
+    private static var homeNavigation : UINavigationController?
+    
     static func getNavigationController() -> UINavigationController? {
-        let homeNavigation = StoryboardViewController.homeNavigationController.instance as? UINavigationController
+        if homeNavigation == nil {
+            homeNavigation = StoryboardViewController.homeNavigationController.instance as? UINavigationController
+        }
+        
         return homeNavigation
     }
     
     static func getViewControllerInstance() -> UIViewController? {
-        let homeVC = StoryboardViewController.homeViewController.instance
+        if homeVC == nil {
+            homeVC = getHomeViewControllerInstance()
+        }
+        return homeVC
+    }
+    
+    static func getHomeViewControllerInstance() -> UIViewController? {
+        if let nav = getNavigationController() {
+            homeNavigation = nav
+            homeVC = nav.viewControllers.first
+        }
         return homeVC
     }
 }

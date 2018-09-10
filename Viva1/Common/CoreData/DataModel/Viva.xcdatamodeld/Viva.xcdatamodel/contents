@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PurchaseItem" representedClassName=".PurchaseItem" syncable="YES">
+        <attribute name="brandName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemId" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantityDescriptionSelectedIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantitySelected" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="quantityDescriptionArray" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="PurchaseItemQuantityDescription" inverseName="purchaseItem" inverseEntity="PurchaseItemQuantityDescription" syncable="YES"/>
+    </entity>
+    <entity name="PurchaseItemQuantityDescription" representedClassName=".PurchaseItemQuantityDescription" syncable="YES">
+        <attribute name="mrp" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="priceAfterDiscount" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="purchaseItem" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PurchaseItem" inverseName="quantityDescriptionArray" inverseEntity="PurchaseItem" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PurchaseItem" positionX="-63" positionY="-18" width="128" height="165"/>
+        <element name="PurchaseItemQuantityDescription" positionX="-54" positionY="54" width="128" height="120"/>
+    </elements>
+</model>

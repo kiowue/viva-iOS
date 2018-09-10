@@ -7,25 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676430E6F8662D052334463C /* Pods_Viva1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C13F3518CF5D609A61E4F97 /* Pods_Viva1.framework */; };
+		C50DC665A8472EEC139697F7 /* Pods_Viva1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F99D552815965C6A0322909 /* Pods_Viva1UITests.framework */; };
 		CB0DC9D61FC2F9FA001C4277 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9D51FC2F9FA001C4277 /* Result.swift */; };
 		CB0DC9DE1FC34DEF001C4277 /* NetworkResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */; };
 		CB0DC9E01FC350A9001C4277 /* JSONResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */; };
 		CB0DC9E21FC351E0001C4277 /* ApiResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E11FC351E0001C4277 /* ApiResources.swift */; };
 		CB0DC9E41FC35224001C4277 /* Serialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E31FC35224001C4277 /* Serialization.swift */; };
 		CB0DC9E61FC3FEE3001C4277 /* NetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */; };
-		CB0DC9E91FC4770C001C4277 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9E81FC4770C001C4277 /* User.swift */; };
 		CB0DC9EB1FC47D28001C4277 /* ResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */; };
 		CB0DCA441FCA83B1001C4277 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0DCA431FCA83B1001C4277 /* Home.storyboard */; };
 		CB0DCA471FCA8402001C4277 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0DCA461FCA8402001C4277 /* HomeViewController.swift */; };
+		CB2AD4362025B3DF006535D1 /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2AD4352025B3DF006535D1 /* BaseOperation.swift */; };
 		CB2BB68D1FCAB0B70073D617 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB2BB68C1FCAB0B70073D617 /* Collection.storyboard */; };
 		CB2BB68F1FCAB0CC0073D617 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB68E1FCAB0CC0073D617 /* CollectionViewController.swift */; };
-		CB2BB6941FCACAE60073D617 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */; };
-		CB2BB6951FCACAE60073D617 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */; };
-		CB2BB6961FCACAE60073D617 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6931FCACAE60073D617 /* Flickr.swift */; };
 		CB2BB6981FCB95780073D617 /* CollectionFlickrCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB2BB6971FCB95780073D617 /* CollectionFlickrCell.swift */; };
 		CB4774851FBD593C00ED071A /* VivaApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4774841FBD593C00ED071A /* VivaApi.swift */; };
+		CB4ADAD221043FF7006FAC26 /* FlickrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4ADACD21043FF7006FAC26 /* FlickrPhoto.swift */; };
+		CB4ADAD321043FF7006FAC26 /* FlickrPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4ADACE21043FF7006FAC26 /* FlickrPhotoCell.swift */; };
+		CB4ADAD421043FF7006FAC26 /* Flickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4ADACF21043FF7006FAC26 /* Flickr.swift */; };
+		CB4ADAD521043FF7006FAC26 /* FlickrSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4ADAD021043FF7006FAC26 /* FlickrSearchResults.swift */; };
+		CB4ADAD621043FF7006FAC26 /* FlickrPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4ADAD121043FF7006FAC26 /* FlickrPhotosViewController.swift */; };
+		CB50214021371B8100FBD83F /* Viva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB50213E21371B8100FBD83F /* Viva.xcdatamodeld */; };
+		CB502147213729EC00FBD83F /* PurchaseItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB502145213729EC00FBD83F /* PurchaseItem+CoreDataClass.swift */; };
+		CB502148213729EC00FBD83F /* PurchaseItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB502146213729EC00FBD83F /* PurchaseItem+CoreDataProperties.swift */; };
+		CB50214B21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50214921372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataClass.swift */; };
+		CB50214C21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB50214A21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataProperties.swift */; };
+		CB61ED10213F956A00647044 /* ItemsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED0F213F956A00647044 /* ItemsDetailViewController.swift */; };
+		CB61ED12213F958600647044 /* ItemsDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED11213F958600647044 /* ItemsDetailPresenter.swift */; };
+		CB61ED14213F959700647044 /* ItemsDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED13213F959700647044 /* ItemsDetailInteractor.swift */; };
+		CB61ED16213F95A400647044 /* ItemsDetailInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED15213F95A400647044 /* ItemsDetailInterface.swift */; };
+		CB61ED18213FC9E700647044 /* ItemsDetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB61ED17213FC9E700647044 /* ItemsDetailViewController.storyboard */; };
+		CB61ED20214422C300647044 /* FirebaseTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED1F214422C300647044 /* FirebaseTask.swift */; };
+		CB61ED222145408A00647044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB61ED212145408A00647044 /* GoogleService-Info.plist */; };
+		CB61ED2621456C7600647044 /* NotificationTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB61ED2521456C7600647044 /* NotificationTask.swift */; };
+		CB7B9E1021294B30001EB854 /* CollectionContainerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E0F21294B30001EB854 /* CollectionContainerTableViewCell.swift */; };
+		CB7B9E1221294B3C001EB854 /* CollectionContainerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7B9E1121294B3C001EB854 /* CollectionContainerTableViewCell.xib */; };
+		CB7B9E1421298FCF001EB854 /* CustomPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E1321298FCF001EB854 /* CustomPresentationController.swift */; };
+		CB7B9E19212A8FDF001EB854 /* ItemCategoriesViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E18212A8FDF001EB854 /* ItemCategoriesViewPresenter.swift */; };
+		CB7B9E1B212A8FF6001EB854 /* ItemCategoriesViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E1A212A8FF6001EB854 /* ItemCategoriesViewInteractor.swift */; };
+		CB7B9E1D212A9390001EB854 /* ItemCategoriesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E1C212A9390001EB854 /* ItemCategoriesViewInterface.swift */; };
+		CB7B9E1F212AB56E001EB854 /* ItemCategoriesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E1E212AB56D001EB854 /* ItemCategoriesDataModel.swift */; };
+		CB7B9E22212B1F18001EB854 /* PurchaseItemDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E21212B1F18001EB854 /* PurchaseItemDataModel.swift */; };
+		CB7B9E24212BE43E001EB854 /* PurchaseItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E23212BE43E001EB854 /* PurchaseItemTableViewCell.swift */; };
+		CB7B9E26212BE462001EB854 /* PurchaseItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7B9E25212BE462001EB854 /* PurchaseItemTableViewCell.xib */; };
+		CB7B9E29212BE502001EB854 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E28212BE502001EB854 /* BaseUIViewController.swift */; };
+		CB7B9E2B212BE523001EB854 /* BaseUITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E2A212BE523001EB854 /* BaseUITableViewController.swift */; };
+		CB7B9E2D212C09AA001EB854 /* AddSubtractButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB7B9E2C212C09AA001EB854 /* AddSubtractButtonView.xib */; };
+		CB7B9E2F212C09C0001EB854 /* AddSubtractButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E2E212C09C0001EB854 /* AddSubtractButtonView.swift */; };
+		CB7B9E40212ED9BD001EB854 /* ItemCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E3F212ED9BD001EB854 /* ItemCategoriesViewController.swift */; };
+		CB7B9E42212EDE22001EB854 /* ItemCategories.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7B9E41212EDE22001EB854 /* ItemCategories.storyboard */; };
+		CB7B9E44212FD1E6001EB854 /* ItemCategoriesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E43212FD1E6001EB854 /* ItemCategoriesCollectionCell.swift */; };
+		CB7B9E4821315377001EB854 /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E4721315377001EB854 /* CartViewController.swift */; };
+		CB7B9E4A21315390001EB854 /* CartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E4921315390001EB854 /* CartPresenter.swift */; };
+		CB7B9E4C2131539C001EB854 /* CartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E4B2131539C001EB854 /* CartInteractor.swift */; };
+		CB7B9E4E213153B9001EB854 /* CartInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E4D213153B9001EB854 /* CartInterface.swift */; };
+		CB7B9E50213153D6001EB854 /* CartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E4F213153D6001EB854 /* CartDataModel.swift */; };
+		CB7B9E5221315611001EB854 /* BaseUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E5121315611001EB854 /* BaseUICollectionViewController.swift */; };
+		CB7B9E57213157B2001EB854 /* ViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E56213157B2001EB854 /* ViewPresenter.swift */; };
+		CB7B9E5921315A31001EB854 /* ViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E5821315A31001EB854 /* ViewInteractor.swift */; };
+		CB7B9E5C2132927E001EB854 /* OldNetworkTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E0B21288A10001EB854 /* OldNetworkTask.swift */; };
+		CB7B9E5F213295B2001EB854 /* CoreDataTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E5E213295B2001EB854 /* CoreDataTask.swift */; };
+		CB7B9E66213514D6001EB854 /* DBJSONResourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7B9E65213514D6001EB854 /* DBJSONResourceType.swift */; };
 		CB7C37FD1FB55215001EE28C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C37FC1FB55215001EE28C /* AppDelegate.swift */; };
-		CB7C37FF1FB55215001EE28C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB7C37FE1FB55215001EE28C /* FirstViewController.swift */; };
 		CB7C38041FB55215001EE28C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38021FB55215001EE28C /* Main.storyboard */; };
 		CB7C38061FB55215001EE28C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38051FB55215001EE28C /* Assets.xcassets */; };
 		CB7C38091FB55215001EE28C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB7C38071FB55215001EE28C /* LaunchScreen.storyboard */; };
@@ -38,6 +82,11 @@
 		CBF1C8B82010B099000F09A6 /* SettingsInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1C8B72010B099000F09A6 /* SettingsInterface.swift */; };
 		CBF1C8FA20166A22000F09A6 /* StoryboardControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF1C8F920166A21000F09A6 /* StoryboardControllers.swift */; };
 		CBF1C8FC20166A59000F09A6 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBF1C8FB20166A59000F09A6 /* Settings.storyboard */; };
+		CBF20001201E3A2D00C4BD39 /* HomeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20000201E3A2D00C4BD39 /* HomeDataModel.swift */; };
+		CBF20003201E3DAF00C4BD39 /* ViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF20002201E3DAF00C4BD39 /* ViewProtocols.swift */; };
+		CBF2FFFD201CDA9E00C4BD39 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2FFFC201CDA9E00C4BD39 /* HomeViewPresenter.swift */; };
+		CBF2FFFF201CDAB900C4BD39 /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2FFFE201CDAB900C4BD39 /* HomeViewInteractor.swift */; };
+		F1875F6DCEA307EB5D1C3C11 /* Pods_Viva1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F95A67A62BCC03F8BCF8EA /* Pods_Viva1Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,26 +107,76 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B051BE50CECBACAB11A46B9 /* Pods-Viva1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1/Pods-Viva1.debug.xcconfig"; sourceTree = "<group>"; };
+		1C13F3518CF5D609A61E4F97 /* Pods_Viva1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viva1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FAD5A1C5F277CB3FFFE356 /* Pods-Viva1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1Tests/Pods-Viva1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F99D552815965C6A0322909 /* Pods_Viva1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viva1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4445C7EA8977B7644C42D1 /* Pods-Viva1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1UITests/Pods-Viva1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2272838893741B941FFBF3F /* Pods-Viva1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1Tests/Pods-Viva1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB0DC9D51FC2F9FA001C4277 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResourceType.swift; sourceTree = "<group>"; };
 		CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONResourceType.swift; sourceTree = "<group>"; };
 		CB0DC9E11FC351E0001C4277 /* ApiResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResources.swift; sourceTree = "<group>"; };
 		CB0DC9E31FC35224001C4277 /* Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serialization.swift; sourceTree = "<group>"; };
 		CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTask.swift; sourceTree = "<group>"; };
-		CB0DC9E81FC4770C001C4277 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceType.swift; sourceTree = "<group>"; };
 		CB0DCA431FCA83B1001C4277 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		CB0DCA461FCA8402001C4277 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CB2AD4352025B3DF006535D1 /* BaseOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
 		CB2BB68C1FCAB0B70073D617 /* Collection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
 		CB2BB68E1FCAB0CC0073D617 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
-		CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
-		CB2BB6931FCACAE60073D617 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
 		CB2BB6971FCB95780073D617 /* CollectionFlickrCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionFlickrCell.swift; sourceTree = "<group>"; };
 		CB4774841FBD593C00ED071A /* VivaApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VivaApi.swift; sourceTree = "<group>"; };
+		CB4ADACD21043FF7006FAC26 /* FlickrPhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhoto.swift; sourceTree = "<group>"; };
+		CB4ADACE21043FF7006FAC26 /* FlickrPhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotoCell.swift; sourceTree = "<group>"; };
+		CB4ADACF21043FF7006FAC26 /* Flickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flickr.swift; sourceTree = "<group>"; };
+		CB4ADAD021043FF7006FAC26 /* FlickrSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrSearchResults.swift; sourceTree = "<group>"; };
+		CB4ADAD121043FF7006FAC26 /* FlickrPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrPhotosViewController.swift; sourceTree = "<group>"; };
+		CB50213F21371B8100FBD83F /* Viva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Viva.xcdatamodel; sourceTree = "<group>"; };
+		CB502145213729EC00FBD83F /* PurchaseItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PurchaseItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB502146213729EC00FBD83F /* PurchaseItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PurchaseItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB50214921372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PurchaseItemQuantityDescription+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CB50214A21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PurchaseItemQuantityDescription+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CB61ED0F213F956A00647044 /* ItemsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDetailViewController.swift; sourceTree = "<group>"; };
+		CB61ED11213F958600647044 /* ItemsDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDetailPresenter.swift; sourceTree = "<group>"; };
+		CB61ED13213F959700647044 /* ItemsDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDetailInteractor.swift; sourceTree = "<group>"; };
+		CB61ED15213F95A400647044 /* ItemsDetailInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsDetailInterface.swift; sourceTree = "<group>"; };
+		CB61ED17213FC9E700647044 /* ItemsDetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemsDetailViewController.storyboard; sourceTree = "<group>"; };
+		CB61ED1F214422C300647044 /* FirebaseTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseTask.swift; sourceTree = "<group>"; };
+		CB61ED212145408A00647044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB61ED23214544C400647044 /* Viva1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Viva1.entitlements; sourceTree = "<group>"; };
+		CB61ED2521456C7600647044 /* NotificationTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTask.swift; sourceTree = "<group>"; };
+		CB61ED272145AB5F00647044 /* Viva1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Viva1-Bridging-Header.h"; sourceTree = "<group>"; };
+		CB7B9E0B21288A10001EB854 /* OldNetworkTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldNetworkTask.swift; sourceTree = "<group>"; };
+		CB7B9E0F21294B30001EB854 /* CollectionContainerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionContainerTableViewCell.swift; sourceTree = "<group>"; };
+		CB7B9E1121294B3C001EB854 /* CollectionContainerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionContainerTableViewCell.xib; sourceTree = "<group>"; };
+		CB7B9E1321298FCF001EB854 /* CustomPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPresentationController.swift; sourceTree = "<group>"; };
+		CB7B9E18212A8FDF001EB854 /* ItemCategoriesViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesViewPresenter.swift; sourceTree = "<group>"; };
+		CB7B9E1A212A8FF6001EB854 /* ItemCategoriesViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesViewInteractor.swift; sourceTree = "<group>"; };
+		CB7B9E1C212A9390001EB854 /* ItemCategoriesViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesViewInterface.swift; sourceTree = "<group>"; };
+		CB7B9E1E212AB56D001EB854 /* ItemCategoriesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesDataModel.swift; sourceTree = "<group>"; };
+		CB7B9E21212B1F18001EB854 /* PurchaseItemDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseItemDataModel.swift; sourceTree = "<group>"; };
+		CB7B9E23212BE43E001EB854 /* PurchaseItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseItemTableViewCell.swift; sourceTree = "<group>"; };
+		CB7B9E25212BE462001EB854 /* PurchaseItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PurchaseItemTableViewCell.xib; sourceTree = "<group>"; };
+		CB7B9E28212BE502001EB854 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
+		CB7B9E2A212BE523001EB854 /* BaseUITableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUITableViewController.swift; sourceTree = "<group>"; };
+		CB7B9E2C212C09AA001EB854 /* AddSubtractButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSubtractButtonView.xib; sourceTree = "<group>"; };
+		CB7B9E2E212C09C0001EB854 /* AddSubtractButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubtractButtonView.swift; sourceTree = "<group>"; };
+		CB7B9E3F212ED9BD001EB854 /* ItemCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesViewController.swift; sourceTree = "<group>"; };
+		CB7B9E41212EDE22001EB854 /* ItemCategories.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemCategories.storyboard; sourceTree = "<group>"; };
+		CB7B9E43212FD1E6001EB854 /* ItemCategoriesCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCategoriesCollectionCell.swift; sourceTree = "<group>"; };
+		CB7B9E4721315377001EB854 /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CB7B9E4921315390001EB854 /* CartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPresenter.swift; sourceTree = "<group>"; };
+		CB7B9E4B2131539C001EB854 /* CartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInteractor.swift; sourceTree = "<group>"; };
+		CB7B9E4D213153B9001EB854 /* CartInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInterface.swift; sourceTree = "<group>"; };
+		CB7B9E4F213153D6001EB854 /* CartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDataModel.swift; sourceTree = "<group>"; };
+		CB7B9E5121315611001EB854 /* BaseUICollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUICollectionViewController.swift; sourceTree = "<group>"; };
+		CB7B9E56213157B2001EB854 /* ViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresenter.swift; sourceTree = "<group>"; };
+		CB7B9E5821315A31001EB854 /* ViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInteractor.swift; sourceTree = "<group>"; };
+		CB7B9E5E213295B2001EB854 /* CoreDataTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTask.swift; sourceTree = "<group>"; };
+		CB7B9E65213514D6001EB854 /* DBJSONResourceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBJSONResourceType.swift; sourceTree = "<group>"; };
 		CB7C37F91FB55215001EE28C /* Viva1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viva1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB7C37FC1FB55215001EE28C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB7C37FE1FB55215001EE28C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		CB7C38031FB55215001EE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB7C38051FB55215001EE28C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB7C38081FB55215001EE28C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,6 +197,13 @@
 		CBF1C8B92010C004000F09A6 /* StoryboardControllers.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = StoryboardControllers.sh; sourceTree = "<group>"; };
 		CBF1C8F920166A21000F09A6 /* StoryboardControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardControllers.swift; sourceTree = "<group>"; };
 		CBF1C8FB20166A59000F09A6 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		CBF20000201E3A2D00C4BD39 /* HomeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDataModel.swift; sourceTree = "<group>"; };
+		CBF20002201E3DAF00C4BD39 /* ViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProtocols.swift; sourceTree = "<group>"; };
+		CBF2FFFC201CDA9E00C4BD39 /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
+		CBF2FFFE201CDAB900C4BD39 /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
+		E8003F5E8E4C6695BFC2050C /* Pods-Viva1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1UITests/Pods-Viva1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F95A67A62BCC03F8BCF8EA /* Pods_Viva1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viva1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B7B66A02FD556CC8C1C987 /* Pods-Viva1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viva1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viva1/Pods-Viva1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +211,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676430E6F8662D052334463C /* Pods_Viva1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +219,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1875F6DCEA307EB5D1C3C11 /* Pods_Viva1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,46 +227,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50DC665A8472EEC139697F7 /* Pods_Viva1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB0DC9D71FC33649001C4277 /* Protocols */ = {
+		67770ECD6B9E9EC06191F853 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */,
+				0B051BE50CECBACAB11A46B9 /* Pods-Viva1.debug.xcconfig */,
+				F6B7B66A02FD556CC8C1C987 /* Pods-Viva1.release.xcconfig */,
+				C2272838893741B941FFBF3F /* Pods-Viva1Tests.debug.xcconfig */,
+				70FAD5A1C5F277CB3FFFE356 /* Pods-Viva1Tests.release.xcconfig */,
+				E8003F5E8E4C6695BFC2050C /* Pods-Viva1UITests.debug.xcconfig */,
+				BC4445C7EA8977B7644C42D1 /* Pods-Viva1UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB0DC9D71FC33649001C4277 /* Protocols&BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E5521315701001EB854 /* ViewController */,
+				CB7B9E54213156FB001EB854 /* TableView */,
+				CB7B9E53213156DE001EB854 /* CollectionView */,
+				CBF20002201E3DAF00C4BD39 /* ViewProtocols.swift */,
 				CB0DC9DF1FC350A9001C4277 /* JSONResourceType.swift */,
 				CB0DC9EA1FC47D28001C4277 /* ResourceType.swift */,
+				CB0DC9E31FC35224001C4277 /* Serialization.swift */,
+				CB0DC9E11FC351E0001C4277 /* ApiResources.swift */,
+				CB0DC9D51FC2F9FA001C4277 /* Result.swift */,
 			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		CB0DC9DC1FC33700001C4277 /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-				CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */,
-			);
-			path = Tasks;
-			sourceTree = "<group>";
-		};
-		CB0DC9E71FC476FE001C4277 /* Objects */ = {
-			isa = PBXGroup;
-			children = (
-				CB0DC9E81FC4770C001C4277 /* User.swift */,
-			);
-			path = Objects;
+			path = "Protocols&BaseClasses";
 			sourceTree = "<group>";
 		};
 		CB0DCA451FCA83B6001C4277 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CB7B9E0E21294AE6001EB854 /* Cells */,
 				CB0DCA431FCA83B1001C4277 /* Home.storyboard */,
 				CB0DCA461FCA8402001C4277 /* HomeViewController.swift */,
 				CBF1C8B52010AC06000F09A6 /* HomeViewInterface.swift */,
+				CBF2FFFC201CDA9E00C4BD39 /* HomeViewPresenter.swift */,
+				CBF2FFFE201CDAB900C4BD39 /* HomeViewInteractor.swift */,
+				CBF20000201E3A2D00C4BD39 /* HomeDataModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		CB2AD4342025B3CB006535D1 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				CB2AD4352025B3DF006535D1 /* BaseOperation.swift */,
+			);
+			path = Operations;
 			sourceTree = "<group>";
 		};
 		CB2BB68B1FCAB0790073D617 /* CollectionView */ = {
@@ -171,15 +295,186 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
-		CB2BB6901FCACAE60073D617 /* FlickrFiles */ = {
+		CB4ADACA21043F82006FAC26 /* FlickrSearch */ = {
 			isa = PBXGroup;
 			children = (
-				CB2BB6911FCACAE60073D617 /* FlickrSearchResults.swift */,
-				CB2BB6921FCACAE60073D617 /* FlickrPhoto.swift */,
-				CB2BB6931FCACAE60073D617 /* Flickr.swift */,
+				CB4ADACF21043FF7006FAC26 /* Flickr.swift */,
+				CB4ADACD21043FF7006FAC26 /* FlickrPhoto.swift */,
+				CB4ADACE21043FF7006FAC26 /* FlickrPhotoCell.swift */,
+				CB4ADAD121043FF7006FAC26 /* FlickrPhotosViewController.swift */,
+				CB4ADAD021043FF7006FAC26 /* FlickrSearchResults.swift */,
 			);
-			name = FlickrFiles;
-			path = ../../../Downloads/FlickrFiles;
+			path = FlickrSearch;
+			sourceTree = "<group>";
+		};
+		CB61ED0E213F951200647044 /* ItemsList */ = {
+			isa = PBXGroup;
+			children = (
+				CB61ED0F213F956A00647044 /* ItemsDetailViewController.swift */,
+				CB61ED11213F958600647044 /* ItemsDetailPresenter.swift */,
+				CB61ED13213F959700647044 /* ItemsDetailInteractor.swift */,
+				CB61ED15213F95A400647044 /* ItemsDetailInterface.swift */,
+				CB61ED17213FC9E700647044 /* ItemsDetailViewController.storyboard */,
+			);
+			path = ItemsList;
+			sourceTree = "<group>";
+		};
+		CB61ED1E214422A500647044 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				CB61ED1F214422C300647044 /* FirebaseTask.swift */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		CB61ED2421456C5E00647044 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				CB61ED2521456C7600647044 /* NotificationTask.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		CB7B9E0E21294AE6001EB854 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E0F21294B30001EB854 /* CollectionContainerTableViewCell.swift */,
+				CB7B9E1121294B3C001EB854 /* CollectionContainerTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CB7B9E15212A8F46001EB854 /* ItemsCategories */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E45212FDC69001EB854 /* Cells */,
+				CB7B9E41212EDE22001EB854 /* ItemCategories.storyboard */,
+				CB7B9E3F212ED9BD001EB854 /* ItemCategoriesViewController.swift */,
+				CB7B9E18212A8FDF001EB854 /* ItemCategoriesViewPresenter.swift */,
+				CB7B9E1A212A8FF6001EB854 /* ItemCategoriesViewInteractor.swift */,
+				CB7B9E1C212A9390001EB854 /* ItemCategoriesViewInterface.swift */,
+				CB7B9E1E212AB56D001EB854 /* ItemCategoriesDataModel.swift */,
+			);
+			path = ItemsCategories;
+			sourceTree = "<group>";
+		};
+		CB7B9E20212B1EED001EB854 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CB61ED2421456C5E00647044 /* Notifications */,
+				CB7B9E5D21329288001EB854 /* APIs */,
+				CB7B9E5B21329271001EB854 /* Network */,
+				CB7B9E5A21329268001EB854 /* CoreData */,
+				CB0DC9D71FC33649001C4277 /* Protocols&BaseClasses */,
+				CB7B9E27212BE4CD001EB854 /* UI */,
+				CB7B9E21212B1F18001EB854 /* PurchaseItemDataModel.swift */,
+				CB7B9E56213157B2001EB854 /* ViewPresenter.swift */,
+				CB7B9E5821315A31001EB854 /* ViewInteractor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CB7B9E27212BE4CD001EB854 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E23212BE43E001EB854 /* PurchaseItemTableViewCell.swift */,
+				CB7B9E25212BE462001EB854 /* PurchaseItemTableViewCell.xib */,
+				CB7B9E2E212C09C0001EB854 /* AddSubtractButtonView.swift */,
+				CB7B9E2C212C09AA001EB854 /* AddSubtractButtonView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CB7B9E45212FDC69001EB854 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E43212FD1E6001EB854 /* ItemCategoriesCollectionCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CB7B9E462131531C001EB854 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E4721315377001EB854 /* CartViewController.swift */,
+				CB7B9E4921315390001EB854 /* CartPresenter.swift */,
+				CB7B9E4B2131539C001EB854 /* CartInteractor.swift */,
+				CB7B9E4D213153B9001EB854 /* CartInterface.swift */,
+				CB7B9E4F213153D6001EB854 /* CartDataModel.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		CB7B9E53213156DE001EB854 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E5121315611001EB854 /* BaseUICollectionViewController.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		CB7B9E54213156FB001EB854 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E2A212BE523001EB854 /* BaseUITableViewController.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		CB7B9E5521315701001EB854 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E28212BE502001EB854 /* BaseUIViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CB7B9E5A21329268001EB854 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CB7B9E6421329746001EB854 /* Entities */,
+				CB7B9E632132973A001EB854 /* DataModel */,
+				CB7B9E5E213295B2001EB854 /* CoreDataTask.swift */,
+				CB7B9E65213514D6001EB854 /* DBJSONResourceType.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CB7B9E5B21329271001EB854 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CB0DC9DD1FC34DEF001C4277 /* NetworkResourceType.swift */,
+				CB0DC9E51FC3FEE3001C4277 /* NetworkTask.swift */,
+				CB7B9E0B21288A10001EB854 /* OldNetworkTask.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CB7B9E5D21329288001EB854 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				CB4774841FBD593C00ED071A /* VivaApi.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		CB7B9E632132973A001EB854 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CB50213E21371B8100FBD83F /* Viva.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CB7B9E6421329746001EB854 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CB50214921372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataClass.swift */,
+				CB50214A21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataProperties.swift */,
+				CB502145213729EC00FBD83F /* PurchaseItem+CoreDataClass.swift */,
+				CB502146213729EC00FBD83F /* PurchaseItem+CoreDataProperties.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 		CB7C37F01FB55214001EE28C = {
@@ -189,6 +484,8 @@
 				CB7C38121FB55216001EE28C /* Viva1Tests */,
 				CB7C381D1FB55216001EE28C /* Viva1UITests */,
 				CB7C37FA1FB55215001EE28C /* Products */,
+				67770ECD6B9E9EC06191F853 /* Pods */,
+				D882BE231315B4CD29A41450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,22 +502,18 @@
 		CB7C37FB1FB55215001EE28C /* Viva1 */ = {
 			isa = PBXGroup;
 			children = (
+				CB61ED23214544C400647044 /* Viva1.entitlements */,
+				CB61ED1E214422A500647044 /* Externals */,
+				CB2AD4342025B3CB006535D1 /* Operations */,
 				CBF0434720106CDC00DB48AA /* Scripts */,
 				CBF04344200EEF2400DB48AA /* Constants */,
 				CBF0433B200E835400DB48AA /* Root */,
+				CB7B9E20212B1EED001EB854 /* Common */,
 				CBF04340200EEA8200DB48AA /* Features */,
-				CB2BB6901FCACAE60073D617 /* FlickrFiles */,
 				CB2BB68B1FCAB0790073D617 /* CollectionView */,
-				CB0DC9E71FC476FE001C4277 /* Objects */,
-				CB0DC9DC1FC33700001C4277 /* Tasks */,
-				CB0DC9D71FC33649001C4277 /* Protocols */,
-				CB4774841FBD593C00ED071A /* VivaApi.swift */,
-				CB7C37FE1FB55215001EE28C /* FirstViewController.swift */,
 				CB7C38051FB55215001EE28C /* Assets.xcassets */,
 				CB7C380A1FB55215001EE28C /* Info.plist */,
-				CB0DC9D51FC2F9FA001C4277 /* Result.swift */,
-				CB0DC9E11FC351E0001C4277 /* ApiResources.swift */,
-				CB0DC9E31FC35224001C4277 /* Serialization.swift */,
+				CB61ED212145408A00647044 /* GoogleService-Info.plist */,
 			);
 			path = Viva1;
 			sourceTree = "<group>";
@@ -250,6 +543,8 @@
 				CBF0433D200E839900DB48AA /* InitialTabBarController.swift */,
 				CB7C38021FB55215001EE28C /* Main.storyboard */,
 				CB7C38071FB55215001EE28C /* LaunchScreen.storyboard */,
+				CB7B9E1321298FCF001EB854 /* CustomPresentationController.swift */,
+				CB61ED272145AB5F00647044 /* Viva1-Bridging-Header.h */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -257,6 +552,10 @@
 		CBF04340200EEA8200DB48AA /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				CB61ED0E213F951200647044 /* ItemsList */,
+				CB7B9E462131531C001EB854 /* Cart */,
+				CB7B9E15212A8F46001EB854 /* ItemsCategories */,
+				CB4ADACA21043F82006FAC26 /* FlickrSearch */,
 				CBF04341200EEAA100DB48AA /* Settings */,
 				CB0DCA451FCA83B6001C4277 /* Home */,
 			);
@@ -292,6 +591,16 @@
 			path = Scripts;
 			sourceTree = "<group>";
 		};
+		D882BE231315B4CD29A41450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C13F3518CF5D609A61E4F97 /* Pods_Viva1.framework */,
+				F1F95A67A62BCC03F8BCF8EA /* Pods_Viva1Tests.framework */,
+				8F99D552815965C6A0322909 /* Pods_Viva1UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -299,10 +608,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB7C38231FB55216001EE28C /* Build configuration list for PBXNativeTarget "Viva1" */;
 			buildPhases = (
+				EE3E7DE6A40837C867097451 /* [CP] Check Pods Manifest.lock */,
 				CB7C37F51FB55215001EE28C /* Sources */,
 				CB7C37F61FB55215001EE28C /* Frameworks */,
 				CB7C37F71FB55215001EE28C /* Resources */,
 				CBF1C8B020109BCF000F09A6 /* ShellScript */,
+				907EB1C10851F3E5F9E8F9CA /* [CP] Embed Pods Frameworks */,
+				4ECF380A45BF84D304623252 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,6 +629,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB7C38261FB55216001EE28C /* Build configuration list for PBXNativeTarget "Viva1Tests" */;
 			buildPhases = (
+				D30608196F00085BDDC39CA9 /* [CP] Check Pods Manifest.lock */,
 				CB7C380B1FB55216001EE28C /* Sources */,
 				CB7C380C1FB55216001EE28C /* Frameworks */,
 				CB7C380D1FB55216001EE28C /* Resources */,
@@ -335,6 +648,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB7C38291FB55216001EE28C /* Build configuration list for PBXNativeTarget "Viva1UITests" */;
 			buildPhases = (
+				4EEAECAC3D33B8C51901CEA5 /* [CP] Check Pods Manifest.lock */,
 				CB7C38161FB55216001EE28C /* Sources */,
 				CB7C38171FB55216001EE28C /* Frameworks */,
 				CB7C38181FB55216001EE28C /* Resources */,
@@ -362,6 +676,11 @@
 					CB7C37F81FB55215001EE28C = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					CB7C380E1FB55216001EE28C = {
 						CreatedOnToolsVersion = 9.0;
@@ -401,11 +720,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB7C38091FB55215001EE28C /* LaunchScreen.storyboard in Resources */,
+				CB61ED18213FC9E700647044 /* ItemsDetailViewController.storyboard in Resources */,
 				CB7C38061FB55215001EE28C /* Assets.xcassets in Resources */,
 				CB7C38041FB55215001EE28C /* Main.storyboard in Resources */,
+				CB61ED222145408A00647044 /* GoogleService-Info.plist in Resources */,
+				CB7B9E26212BE462001EB854 /* PurchaseItemTableViewCell.xib in Resources */,
 				CBF1C8FC20166A59000F09A6 /* Settings.storyboard in Resources */,
+				CB7B9E42212EDE22001EB854 /* ItemCategories.storyboard in Resources */,
 				CB0DCA441FCA83B1001C4277 /* Home.storyboard in Resources */,
 				CB2BB68D1FCAB0B70073D617 /* Collection.storyboard in Resources */,
+				CB7B9E1221294B3C001EB854 /* CollectionContainerTableViewCell.xib in Resources */,
+				CB7B9E2D212C09AA001EB854 /* AddSubtractButtonView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +751,86 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4ECF380A45BF84D304623252 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Viva1/Pods-Viva1-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viva1/Pods-Viva1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EEAECAC3D33B8C51901CEA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viva1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907EB1C10851F3E5F9E8F9CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Viva1/Pods-Viva1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viva1/Pods-Viva1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CBF1C8B020109BCF000F09A6 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -439,6 +844,42 @@
 			shellPath = /bin/sh;
 			shellScript = "# All run scripts should be called from MainScript.sh\n$SRCROOT/Viva1/Scripts/MainScript.sh";
 		};
+		D30608196F00085BDDC39CA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viva1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE3E7DE6A40837C867097451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viva1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -446,14 +887,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB0DC9E91FC4770C001C4277 /* User.swift in Sources */,
-				CB2BB6951FCACAE60073D617 /* FlickrPhoto.swift in Sources */,
-				CB2BB6941FCACAE60073D617 /* FlickrSearchResults.swift in Sources */,
+				CB7B9E24212BE43E001EB854 /* PurchaseItemTableViewCell.swift in Sources */,
+				CB4ADAD621043FF7006FAC26 /* FlickrPhotosViewController.swift in Sources */,
+				CB7B9E19212A8FDF001EB854 /* ItemCategoriesViewPresenter.swift in Sources */,
 				CB0DC9D61FC2F9FA001C4277 /* Result.swift in Sources */,
+				CB7B9E29212BE502001EB854 /* BaseUIViewController.swift in Sources */,
+				CB61ED20214422C300647044 /* FirebaseTask.swift in Sources */,
+				CB4ADAD321043FF7006FAC26 /* FlickrPhotoCell.swift in Sources */,
+				CB7B9E22212B1F18001EB854 /* PurchaseItemDataModel.swift in Sources */,
+				CB502148213729EC00FBD83F /* PurchaseItem+CoreDataProperties.swift in Sources */,
+				CB7B9E4C2131539C001EB854 /* CartInteractor.swift in Sources */,
+				CB7B9E57213157B2001EB854 /* ViewPresenter.swift in Sources */,
 				CB0DC9E01FC350A9001C4277 /* JSONResourceType.swift in Sources */,
 				CB4774851FBD593C00ED071A /* VivaApi.swift in Sources */,
+				CB7B9E2F212C09C0001EB854 /* AddSubtractButtonView.swift in Sources */,
+				CB7B9E4A21315390001EB854 /* CartPresenter.swift in Sources */,
+				CBF2FFFF201CDAB900C4BD39 /* HomeViewInteractor.swift in Sources */,
+				CB7B9E5F213295B2001EB854 /* CoreDataTask.swift in Sources */,
 				CB2BB68F1FCAB0CC0073D617 /* CollectionViewController.swift in Sources */,
 				CB0DC9E41FC35224001C4277 /* Serialization.swift in Sources */,
+				CB7B9E1021294B30001EB854 /* CollectionContainerTableViewCell.swift in Sources */,
+				CB502147213729EC00FBD83F /* PurchaseItem+CoreDataClass.swift in Sources */,
+				CB4ADAD221043FF7006FAC26 /* FlickrPhoto.swift in Sources */,
+				CB7B9E1B212A8FF6001EB854 /* ItemCategoriesViewInteractor.swift in Sources */,
+				CB7B9E50213153D6001EB854 /* CartDataModel.swift in Sources */,
+				CB50214B21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataClass.swift in Sources */,
 				CBF04343200EEABA00DB48AA /* SettingsViewController.swift in Sources */,
 				CB2BB6981FCB95780073D617 /* CollectionFlickrCell.swift in Sources */,
 				CB7C37FD1FB55215001EE28C /* AppDelegate.swift in Sources */,
@@ -463,12 +921,35 @@
 				CB0DC9DE1FC34DEF001C4277 /* NetworkResourceType.swift in Sources */,
 				CBF0434D2010801000DB48AA /* Constants.swift in Sources */,
 				CBF1C8B62010AC06000F09A6 /* HomeViewInterface.swift in Sources */,
-				CB7C37FF1FB55215001EE28C /* FirstViewController.swift in Sources */,
+				CB7B9E44212FD1E6001EB854 /* ItemCategoriesCollectionCell.swift in Sources */,
+				CB50214C21372A1700FBD83F /* PurchaseItemQuantityDescription+CoreDataProperties.swift in Sources */,
+				CB7B9E5C2132927E001EB854 /* OldNetworkTask.swift in Sources */,
+				CB61ED2621456C7600647044 /* NotificationTask.swift in Sources */,
 				CB0DCA471FCA8402001C4277 /* HomeViewController.swift in Sources */,
+				CB7B9E40212ED9BD001EB854 /* ItemCategoriesViewController.swift in Sources */,
 				CBF1C8FA20166A22000F09A6 /* StoryboardControllers.swift in Sources */,
-				CB2BB6961FCACAE60073D617 /* Flickr.swift in Sources */,
+				CB7B9E5921315A31001EB854 /* ViewInteractor.swift in Sources */,
+				CB61ED16213F95A400647044 /* ItemsDetailInterface.swift in Sources */,
+				CB7B9E2B212BE523001EB854 /* BaseUITableViewController.swift in Sources */,
+				CBF20003201E3DAF00C4BD39 /* ViewProtocols.swift in Sources */,
+				CB7B9E5221315611001EB854 /* BaseUICollectionViewController.swift in Sources */,
+				CB7B9E1F212AB56E001EB854 /* ItemCategoriesDataModel.swift in Sources */,
+				CB7B9E1421298FCF001EB854 /* CustomPresentationController.swift in Sources */,
+				CB2AD4362025B3DF006535D1 /* BaseOperation.swift in Sources */,
+				CBF20001201E3A2D00C4BD39 /* HomeDataModel.swift in Sources */,
+				CB7B9E1D212A9390001EB854 /* ItemCategoriesViewInterface.swift in Sources */,
 				CBF1C8B82010B099000F09A6 /* SettingsInterface.swift in Sources */,
+				CB61ED12213F958600647044 /* ItemsDetailPresenter.swift in Sources */,
+				CBF2FFFD201CDA9E00C4BD39 /* HomeViewPresenter.swift in Sources */,
+				CB7B9E4821315377001EB854 /* CartViewController.swift in Sources */,
+				CB4ADAD421043FF7006FAC26 /* Flickr.swift in Sources */,
+				CB4ADAD521043FF7006FAC26 /* FlickrSearchResults.swift in Sources */,
 				CB0DC9EB1FC47D28001C4277 /* ResourceType.swift in Sources */,
+				CB7B9E66213514D6001EB854 /* DBJSONResourceType.swift in Sources */,
+				CB50214021371B8100FBD83F /* Viva.xcdatamodeld in Sources */,
+				CB61ED10213F956A00647044 /* ItemsDetailViewController.swift in Sources */,
+				CB61ED14213F959700647044 /* ItemsDetailInteractor.swift in Sources */,
+				CB7B9E4E213153B9001EB854 /* CartInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +1057,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Viva1/Root/Viva1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -625,6 +1107,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Viva1/Root/Viva1-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -632,14 +1115,16 @@
 		};
 		CB7C38241FB55216001EE28C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B051BE50CECBACAB11A46B9 /* Pods-Viva1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Viva1/Viva1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UVB2ZZ736E;
+				DEVELOPMENT_TEAM = N3V7QGC6NX;
 				INFOPLIST_FILE = Viva1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.viva.Viva1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyvo.ZyvoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -648,14 +1133,16 @@
 		};
 		CB7C38251FB55216001EE28C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B7B66A02FD556CC8C1C987 /* Pods-Viva1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Viva1/Viva1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UVB2ZZ736E;
+				DEVELOPMENT_TEAM = N3V7QGC6NX;
 				INFOPLIST_FILE = Viva1/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.viva.Viva1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zyvo.ZyvoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -664,6 +1151,7 @@
 		};
 		CB7C38271FB55216001EE28C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2272838893741B941FFBF3F /* Pods-Viva1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -681,6 +1169,7 @@
 		};
 		CB7C38281FB55216001EE28C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FAD5A1C5F277CB3FFFE356 /* Pods-Viva1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -698,6 +1187,7 @@
 		};
 		CB7C382A1FB55216001EE28C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8003F5E8E4C6695BFC2050C /* Pods-Viva1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -714,6 +1204,7 @@
 		};
 		CB7C382B1FB55216001EE28C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4445C7EA8977B7644C42D1 /* Pods-Viva1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -768,6 +1259,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB50213E21371B8100FBD83F /* Viva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB50213F21371B8100FBD83F /* Viva.xcdatamodel */,
+			);
+			currentVersion = CB50213F21371B8100FBD83F /* Viva.xcdatamodel */;
+			path = Viva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CB7C37F11FB55214001EE28C /* Project object */;
 }

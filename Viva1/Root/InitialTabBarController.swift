@@ -14,18 +14,12 @@ class InitialTabBarController {
     fileprivate struct constants {
         struct tabBarIndex {
             static let home = 0
-            static let radio = 1
-            static let player = 2
-            static let myMusic = 3
-            static let settings = 4
+            static let settings = 1
         }
     }
     
     var tabController : UITabBarController?
     var homeNavigation : UINavigationController?
-    var radioNavigation : UINavigationController?
-    var playerNavigation : UINavigationController?
-    var myMusicNavigation : UINavigationController?
     var settingNavigation : UINavigationController?
     
     func setupTabBarController(index: Int) {
@@ -75,9 +69,6 @@ class InitialTabBarController {
 //        }
 
         homeNavigation = nil
-        radioNavigation = nil
-        playerNavigation = nil
-        myMusicNavigation = nil
         settingNavigation = nil
         tabController = nil
     }
@@ -94,24 +85,6 @@ class InitialTabBarController {
                 let homeItem = tabBarItems[constants.tabBarIndex.home]
                 homeItem.image = UIImage(named: "ic_home_unselected")
                 homeItem.selectedImage = UIImage(named: "ic_home_selected")
-            }
-
-            if tabBarItems.count > constants.tabBarIndex.radio {
-                let radioItem = tabBarItems[constants.tabBarIndex.radio]
-                radioItem.image = UIImage(named: "ic_radio_unselected")
-                radioItem.selectedImage = UIImage(named: "ic_radio_selected")
-            }
-
-            if tabBarItems.count > constants.tabBarIndex.player {
-                let playerItem = tabBarItems[constants.tabBarIndex.player]
-                playerItem.image = UIImage(named: "ic_player_unselected")
-                playerItem.selectedImage = UIImage(named: "ic_player_selected")
-            }
-
-            if tabBarItems.count > constants.tabBarIndex.myMusic {
-                let myMusicItem = tabBarItems[constants.tabBarIndex.myMusic]
-                myMusicItem.image = UIImage(named: "ic_mymusic_unselected")
-                myMusicItem.selectedImage = UIImage(named: "ic_mymusic_selected")
             }
 
             if tabBarItems.count > constants.tabBarIndex.settings {
